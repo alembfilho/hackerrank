@@ -159,18 +159,3 @@ function birthday(s, d, m) {
 
   return count
 }
-
-// XOR Strings 2
-// Given two strings consisting of digits 0 and 1 only, find the XOR of the two strings.
-function strings_xor(s, t) {
-
-  let res = "";
-  for (let i = 0; i < s.length; i++) {
-    if (s[i] == t[i])
-      res += '0';
-    else
-      res += '1';
-  }
-
-  return res;
-}
